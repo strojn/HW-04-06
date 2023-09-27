@@ -19,11 +19,14 @@ public class Main {
         ClassRoom classRoom3 = new ClassRoom(excelentPupil, goodPupil, badPupil);
         ClassRoom classRoom2 = new ClassRoom(badPupil, badPupil);
 
-        System.out.println("\nКлас із двох учнів.");
-        classRoom2.show();
-        System.out.println("\nКлас із трьох учнів.");
-        classRoom3.show();
-        System.out.println("\nКлас із чотирьох учнів.");
-        classRoom4.show();
+        System.out.println("\nКлас із двох наданих учнів.");
+//        classRoom2.show();
+        classRoom2.showNew();
+        System.out.println("\nКлас із трьох наданих учнів.");
+//        classRoom3.show();
+        classRoom3.showNew();
+        System.out.println("\nКлас із чотирьох наданих учнів.");
+//        classRoom4.show();
+        classRoom4.showNew();
     }
 }

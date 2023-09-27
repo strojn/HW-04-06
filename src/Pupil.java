@@ -1,9 +1,9 @@
 // file "Pupil.java"
 public class Pupil {
-    void study() {}
-    void read() {}
-    void write() {}
-    void relax() {}
+    void study() { System.out.println("Generic study"); }
+    void read() { System.out.println("Generic read"); }
+    void write() { System.out.println("Generic write"); }
+    void relax() { System.out.println("Generic relax"); }
 }
 
 class ExcelentPupil extends Pupil {
